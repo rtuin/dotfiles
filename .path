@@ -1,1 +1,1 @@
-export PATH="$(brew --prefix josegonzalez/php/php54)/bin:/usr/local/opt/ruby/bin:$PATH"
+export PATH="$(brew --prefix josegonzalez/php/php55)/bin:/usr/local/opt/ruby/bin:$PATH"
