@@ -17,3 +17,9 @@ export LESS_TERMCAP_md="$ORANGE"
 
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
+
+export XDEBUG_CONFIG="idekey=PHPSTORM"
+
+export SONAR_RUNNER_HOME="/Applications/sonar-runner"
+
+export NODE_PATH="/usr/local/lib/node_modules"
