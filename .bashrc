@@ -11,6 +11,7 @@ function xmybugon() {
 }
 alias xbugon="xmybugon"
 alias xbugoff="unset XDEBUG_CONFIG"
+alias gr='cd "$(git rev-parse --show-toplevel)"'
 
 export NODE_PATH="/usr/local/share/npm/lib/node_modules"
 
