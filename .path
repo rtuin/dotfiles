@@ -1,1 +1,1 @@
-export PATH="$(brew --prefix josegonzalez/php/php54)/bin:/usr/local/opt/ruby/bin:/Users/rtuin/android-sdk/sdk-20140321/platform-tools:$PATH"
+export PATH="$PATH"
