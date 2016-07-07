@@ -1,1 +1,1 @@
-export PATH="$PATH"
+export PATH="~/.composer/vendor/bin:/usr/local/git/bin/:/usr/local/opt/ruby/bin:$PATH:/usr/local/sbin"
