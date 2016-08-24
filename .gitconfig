@@ -79,3 +79,6 @@
 
 [push]
 	default = simple
+
+[diff]
+	tool = diff-so-fancy

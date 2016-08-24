@@ -23,3 +23,10 @@ export XDEBUG_CONFIG="idekey=PHPSTORM"
 export SONAR_RUNNER_HOME="/Applications/sonar-runner"
 
 export NODE_PATH="/usr/local/lib/node_modules"
+
+# boot2docker
+#export DOCKER_HOST=tcp://192.168.59.103:2376
+#export DOCKER_CERT_PATH=/Users/rtuin/.boot2docker/certs/boot2docker-vm
+#export DOCKER_TLS_VERIFY=1
+
+export GOPATH=$HOME/projects/gocode
