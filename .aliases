@@ -145,7 +145,7 @@ godev() {
 	git checkout -b $(jira-cli view $1 --format '%key-%summary' | tr '[:upper:]' '[:lower:]' | sed -e 's/ /-/g' | awk '{ print "feature/" $0 }')
 }
 
-alias gpo="git push origin $(git branch --no-color | grep \* | awk '{print $2}')"
+#alias gpo="git push origin $(git branch --no-color | grep \* | awk '{print $2}')"
 alias mtail='multitail -cS symfony'
 
 # productivity
