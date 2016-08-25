@@ -131,12 +131,6 @@ alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
-<<<<<<< HEAD
-=======
-# Because docker-compose is hard to type
-alias d="docker-compose"
-
->>>>>>> c15e09b6b87b49698dfd945dff60c2b45501c75a
 scratch() {
     php ~/Library/Preferences/WebIde90/scratches/$1
 }
