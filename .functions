@@ -167,3 +167,26 @@ function unquarantine() {
 function homestead() {
     ( cd ~/projects/Homestead && vagrant $* )
 }
+
+function __projects_dir_prompt() {
+	if [ -z $PROJECTS_DIR ]; then
+	        echo "Please set \$PROJECTS_DIR when using this tool."
+        	return
+	fi
+
+	echo "Select a project dir that you've recently been working on:"
+	DIRLIST=$(tail -5000 $HISTFILE | grep -e "cd [a-zA-Z].*" | sort | uniq -c | sort -nr | sed -n -e 's/^.*cd \(.*\)/\1/p' | head -5)
+	select FILENAME in $DIRLIST;
+	do
+        	cd $PROJECTS_DIR/$FILENAME
+        	echo "cd $FILENAME" >> $HISTFILE
+        	break
+	done
+}
+
+function __open_github_for_dir() {
+	open https://$(git remote -v | grep upstream | awk '{print $2}' | sed -ne 's/:/\//p' | sed -ne 's/\.git//p' | sed -ne 's/^.*@//p' | head -1)
+}
+function __open_github_pulls_for_dir() {
+        open https://$(git remote -v | grep upstream | awk '{print $2}' | sed -ne 's/:/\//p' | sed -ne 's/\.git//p' | sed -ne 's/^.*@//p' | head -1)/pulls
+}

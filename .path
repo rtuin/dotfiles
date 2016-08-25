@@ -1,1 +1,1 @@
-export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="/Users/rtuin/Library/Python/2.7/bin:~/.composer/vendor/bin:/usr/local/git/bin/:/Users/rtuin/projects/gocode/bin/:/usr/local/opt/ruby/bin:$PATH:/usr/local/sbin"

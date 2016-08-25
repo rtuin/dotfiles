@@ -82,3 +82,9 @@
 
 [diff]
 	tool = diff-so-fancy
+[user]
+        name = Richard Tuin
+        email = richardtuin@gmail.com
+        signingkey = D1C5A295
+[commit]
+        gpgsign = true

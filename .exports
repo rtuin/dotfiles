@@ -30,3 +30,4 @@ export NODE_PATH="/usr/local/lib/node_modules"
 #export DOCKER_TLS_VERIFY=1
 
 export GOPATH=$HOME/projects/gocode
+export PROJECTS_DIR=$HOME/projects

@@ -10,7 +10,6 @@ alias -- -="cd -"
 #alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
@@ -181,3 +180,6 @@ function _gpo() {
 alias gpo=_gpo
 alias gs="git status"
 alias jstart=godev
+alias p=__projects_dir_prompt
+alias github=__open_github_for_dir
+alias pulls=__open_github_pulls_for_dir
